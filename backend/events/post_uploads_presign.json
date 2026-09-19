@@ -1,0 +1,22 @@
+{
+  "resource": "/uploads/presign",
+  "path": "/uploads/presign",
+  "httpMethod": "POST",
+  "headers": {
+    "Accept": "application/json",
+    "Content-Type": "application/json",
+    "Host": "api.example.com"
+  },
+  "multiValueHeaders": null,
+  "queryStringParameters": null,
+  "multiValueQueryStringParameters": null,
+  "pathParameters": null,
+  "stageVariables": null,
+  "requestContext": {
+    "resourcePath": "/uploads/presign",
+    "httpMethod": "POST",
+    "stage": "prod"
+  },
+  "body": "{\"fileName\":\"receipt.pdf\",\"contentType\":\"application/pdf\"}",
+  "isBase64Encoded": false
+}

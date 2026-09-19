@@ -1,0 +1,23 @@
+{
+  "resource": "/evidence/{id}",
+  "path": "/evidence/demo-id",
+  "httpMethod": "DELETE",
+  "headers": {
+    "Accept": "application/json",
+    "Host": "api.example.com"
+  },
+  "multiValueHeaders": null,
+  "queryStringParameters": null,
+  "multiValueQueryStringParameters": null,
+  "pathParameters": {
+    "id": "demo-id"
+  },
+  "stageVariables": null,
+  "requestContext": {
+    "resourcePath": "/evidence/{id}",
+    "httpMethod": "DELETE",
+    "stage": "prod"
+  },
+  "body": null,
+  "isBase64Encoded": false
+}

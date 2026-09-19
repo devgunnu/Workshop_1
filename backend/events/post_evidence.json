@@ -1,0 +1,22 @@
+{
+  "resource": "/evidence",
+  "path": "/evidence",
+  "httpMethod": "POST",
+  "headers": {
+    "Accept": "application/json",
+    "Content-Type": "application/json",
+    "Host": "api.example.com"
+  },
+  "multiValueHeaders": null,
+  "queryStringParameters": null,
+  "multiValueQueryStringParameters": null,
+  "pathParameters": null,
+  "stageVariables": null,
+  "requestContext": {
+    "resourcePath": "/evidence",
+    "httpMethod": "POST",
+    "stage": "prod"
+  },
+  "body": "{\"title\":\"Purchase receipt\",\"description\":\"Receipt for office supplies.\",\"tags\":[\"receipt\",\"office\"],\"fileName\":\"receipt.pdf\",\"contentType\":\"application/pdf\",\"assetKey\":\"evidence/demo/demo-id/receipt.pdf\"}",
+  "isBase64Encoded": false
+}

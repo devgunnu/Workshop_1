@@ -1,0 +1,21 @@
+{
+  "resource": "/evidence",
+  "path": "/evidence",
+  "httpMethod": "GET",
+  "headers": {
+    "Accept": "application/json",
+    "Host": "api.example.com"
+  },
+  "multiValueHeaders": null,
+  "queryStringParameters": null,
+  "multiValueQueryStringParameters": null,
+  "pathParameters": null,
+  "stageVariables": null,
+  "requestContext": {
+    "resourcePath": "/evidence",
+    "httpMethod": "GET",
+    "stage": "prod"
+  },
+  "body": null,
+  "isBase64Encoded": false
+}
